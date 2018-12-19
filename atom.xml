@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://robinmin.github.io/"/>
+  <link href="//robinmin.github.io/"/>
   <updated>2018-12-19T15:23:22.554Z</updated>
-  <id>http://robinmin.github.io/</id>
+  <id>//robinmin.github.io/</id>
   
   <author>
     <name>Robin Min</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>维护历史</title>
-    <link href="http://robinmin.github.io/2018/12/19/history/"/>
-    <id>http://robinmin.github.io/2018/12/19/history/</id>
+    <link href="//robinmin.github.io/2018/12/19/history/"/>
+    <id>//robinmin.github.io/2018/12/19/history/</id>
     <published>2018-12-19T12:21:35.000Z</published>
     <updated>2018-12-19T15:23:22.554Z</updated>
     
@@ -35,48 +35,48 @@
     
     </summary>
     
-      <category term="技术" scheme="http://robinmin.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="//robinmin.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="技术" scheme="http://robinmin.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="//robinmin.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>开篇第一章测试</title>
-    <link href="http://robinmin.github.io/2018/12/19/first-post/"/>
-    <id>http://robinmin.github.io/2018/12/19/first-post/</id>
+    <link href="//robinmin.github.io/2018/12/19/first-post/"/>
+    <id>//robinmin.github.io/2018/12/19/first-post/</id>
     <published>2018-12-19T05:35:34.000Z</published>
     <updated>2018-12-19T11:15:27.474Z</updated>
     
-    <content type="html"><![CDATA[<p>你好，世界！updated.</p><img src="http://pjzdftzoq.bkt.clouddn.com/static/images/chart.jpg">]]></content>
+    <content type="html"><![CDATA[<p>你好，世界！updated.</p><img src="//pjzdftzoq.bkt.clouddn.com/static/images/chart.jpg">]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;你好，世界！updated.&lt;/p&gt;
-&lt;img src=&quot;http://pjzdftzoq.bkt.clouddn.com/static/images/chart.jpg&quot;&gt;
+&lt;img src=&quot;//pjzdftzoq.bkt.clouddn.com/static/images/chart.jpg&quot;&gt;
 
       
     
     </summary>
     
-      <category term="test" scheme="http://robinmin.github.io/categories/test/"/>
+      <category term="test" scheme="//robinmin.github.io/categories/test/"/>
     
     
-      <category term="test" scheme="http://robinmin.github.io/tags/test/"/>
+      <category term="test" scheme="//robinmin.github.io/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://robinmin.github.io/2018/12/19/hello-world/"/>
-    <id>http://robinmin.github.io/2018/12/19/hello-world/</id>
+    <link href="//robinmin.github.io/2018/12/19/hello-world/"/>
+    <id>//robinmin.github.io/2018/12/19/hello-world/</id>
     <published>2018-12-19T05:31:39.091Z</published>
     <updated>2018-12-19T10:28:23.419Z</updated>
     
-    <content type="html"><![CDATA[<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="hbe-security">  <div class="hbe-input-container">  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />    <label for="pass">Please enter the password to read the blog.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">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</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <content type="html"><![CDATA[<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="hbe-security">  <div class="hbe-input-container">  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />    <label for="pass">Please enter the password to read the blog.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">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</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     <summary type="html">
     
@@ -85,14 +85,14 @@
     </summary>
     
     
-      <category term="test" scheme="http://robinmin.github.io/tags/test/"/>
+      <category term="test" scheme="//robinmin.github.io/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>仗义每多：《无名之辈》影评</title>
-    <link href="http://robinmin.github.io/2018/11/18/%E4%BB%97%E4%B9%89%E6%AF%8F%E5%A4%9A/"/>
-    <id>http://robinmin.github.io/2018/11/18/仗义每多/</id>
+    <link href="//robinmin.github.io/2018/11/18/%E4%BB%97%E4%B9%89%E6%AF%8F%E5%A4%9A/"/>
+    <id>//robinmin.github.io/2018/11/18/仗义每多/</id>
     <published>2018-11-18T09:17:04.000Z</published>
     <updated>2018-12-19T15:02:16.447Z</updated>
     
@@ -109,17 +109,17 @@
     
     </summary>
     
-      <category term="旧文" scheme="http://robinmin.github.io/categories/%E6%97%A7%E6%96%87/"/>
+      <category term="旧文" scheme="//robinmin.github.io/categories/%E6%97%A7%E6%96%87/"/>
     
     
-      <category term="影评" scheme="http://robinmin.github.io/tags/%E5%BD%B1%E8%AF%84/"/>
+      <category term="影评" scheme="//robinmin.github.io/tags/%E5%BD%B1%E8%AF%84/"/>
     
   </entry>
   
   <entry>
     <title>《江湖儿女》影评</title>
-    <link href="http://robinmin.github.io/2018/09/25/jhen/"/>
-    <id>http://robinmin.github.io/2018/09/25/jhen/</id>
+    <link href="//robinmin.github.io/2018/09/25/jhen/"/>
+    <id>//robinmin.github.io/2018/09/25/jhen/</id>
     <published>2018-09-25T13:31:22.000Z</published>
     <updated>2018-12-19T15:01:52.588Z</updated>
     
@@ -136,17 +136,17 @@
     
     </summary>
     
-      <category term="旧文" scheme="http://robinmin.github.io/categories/%E6%97%A7%E6%96%87/"/>
+      <category term="旧文" scheme="//robinmin.github.io/categories/%E6%97%A7%E6%96%87/"/>
     
     
-      <category term="影评" scheme="http://robinmin.github.io/tags/%E5%BD%B1%E8%AF%84/"/>
+      <category term="影评" scheme="//robinmin.github.io/tags/%E5%BD%B1%E8%AF%84/"/>
     
   </entry>
   
   <entry>
     <title>冤有头债有主</title>
-    <link href="http://robinmin.github.io/2016/05/04/yytzyz/"/>
-    <id>http://robinmin.github.io/2016/05/04/yytzyz/</id>
+    <link href="//robinmin.github.io/2016/05/04/yytzyz/"/>
+    <id>//robinmin.github.io/2016/05/04/yytzyz/</id>
     <published>2016-05-03T18:03:25.000Z</published>
     <updated>2018-12-19T14:44:49.156Z</updated>
     
@@ -162,12 +162,12 @@
     
     </summary>
     
-      <category term="旧文" scheme="http://robinmin.github.io/categories/%E6%97%A7%E6%96%87/"/>
+      <category term="旧文" scheme="//robinmin.github.io/categories/%E6%97%A7%E6%96%87/"/>
     
     
-      <category term="社会" scheme="http://robinmin.github.io/tags/%E7%A4%BE%E4%BC%9A/"/>
+      <category term="社会" scheme="//robinmin.github.io/tags/%E7%A4%BE%E4%BC%9A/"/>
     
-      <category term="杂感" scheme="http://robinmin.github.io/tags/%E6%9D%82%E6%84%9F/"/>
+      <category term="杂感" scheme="//robinmin.github.io/tags/%E6%9D%82%E6%84%9F/"/>
     
   </entry>
   
