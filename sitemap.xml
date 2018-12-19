@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://robinmin.github.io/about/index.html</loc>
+    <loc>http://robinmin.github.io/2018/12/19/first-post/</loc>
     
-    <lastmod>2018-12-19T06:50:07.523Z</lastmod>
+    <lastmod>2018-12-19T07:14:34.203Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://robinmin.github.io/2018/12/19/first-post/</loc>
+    <loc>http://robinmin.github.io/2018/12/19/hello-world/</loc>
     
-    <lastmod>2018-12-19T06:45:36.858Z</lastmod>
+    <lastmod>2018-12-19T07:11:29.116Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://robinmin.github.io/about/index.html</loc>
+    
+    <lastmod>2018-12-19T06:50:07.523Z</lastmod>
     
   </url>
   
@@ -26,13 +33,6 @@
     <loc>http://robinmin.github.io/tags/index.html</loc>
     
     <lastmod>2018-12-19T06:41:32.602Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://robinmin.github.io/2018/12/19/hello-world/</loc>
-    
-    <lastmod>2018-12-19T05:31:39.091Z</lastmod>
     
   </url>
   
