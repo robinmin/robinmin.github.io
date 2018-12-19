@@ -1,141 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title>维护历史</title>
-      <link href="/2018/12/19/history/"/>
-      <url>/2018/12/19/history/</url>
-      
-        <content type="html"><![CDATA[<h4 id="2018-12-19"><a href="#2018-12-19" class="headerlink" title="2018-12-19"></a>2018-12-19</h4><ul><li>本地安装hexo，配置<a href="https://pages.github.com/" target="_blank" rel="noopener">github pages</a>以及<a href="https://pages.github.com/" target="_blank" rel="noopener">七牛</a>图床；</li><li>添加<a href="https://disqus.com/" target="_blank" rel="noopener">Disqus</a>支持；</li><li>添加<a href="https://analytics.google.com/analytics/web/" target="_blank" rel="noopener">Google Analytics</a>支持；</li></ul><h4 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h4><ul><li><a href="https://github.com/guolin/crisp-hexo-theme" target="_blank" rel="noopener">theme：guolin/crisp-hexo-theme</a></li><li><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="noopener">手把手教你使用Hexo + Github Pages搭建个人独立博客</a></li><li><a href="https://blog.csdn.net/li740207611/article/details/51781798" target="_blank" rel="noopener">hexo，使用七牛图床</a></li></ul>]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[维护历史]]></title>
+    <url>%2F2018%2F12%2F19%2Fhistory%2F</url>
+    <content type="text"><![CDATA[2018-12-19 本地安装hexo，配置github pages以及七牛图床； 添加Disqus支持； 添加Google Analytics支持； 参考链接 theme：guolin/crisp-hexo-theme 手把手教你使用Hexo + Github Pages搭建个人独立博客 hexo，使用七牛图床]]></content>
       <categories>
-          
-          <category> 技术 </category>
-          
+        <category>技术</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 技术 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>开篇第一章测试</title>
-      <link href="/2018/12/19/first-post/"/>
-      <url>/2018/12/19/first-post/</url>
-      
-        <content type="html"><![CDATA[<p>你好，世界！updated.</p><img src="http://pjzdftzoq.bkt.clouddn.com/static/images/chart.jpg">]]></content>
-      
-      
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[开篇第一章测试]]></title>
+    <url>%2F2018%2F12%2F19%2Ffirst-post%2F</url>
+    <content type="text"><![CDATA[你好，世界！updated.]]></content>
       <categories>
-          
-          <category> test </category>
-          
+        <category>test</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2018/12/19/hello-world/"/>
-      <url>/2018/12/19/hello-world/</url>
-      
-        <content type="html"><![CDATA[<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="hbe-security">  <div class="hbe-input-container">  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />    <label for="pass">Please enter the password to read the blog.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">U2FsdGVkX19DcAIOx7JePt+fRRWEVb9khNuNI2aD0UlW/ecsHJh62UmY2UJBkafeWPA74nUSsoppxJcTgvOJLRfH+EVNUMpO5DAt/hEC8XyD+2X8p/fbAz3UGaZA4ur9Fp2t+0ioMD4RSL8RZooRoLtbkw2O8VsKLYSQ7Nya9y85ySix8TocGpVNRCBrUyHyPcfYJjj9bzPVIYod2j+Qn5PxDyXLdrpXO9t8m4EpaJ5CNBvNRok6MmjK+HxgOy0WRX6bSAU1YERZ3/LpSR7UiAo2tMi61yDAF6eIV1tOcVn3IPa2PzOvp7XE233tgCjb8o+Q3v0lAtFs7juzBRJm0Hi1KPlDF/Hmzf8k/xZ/q5VyJpNnPRIw/pHmpXI+6OfofUDWMLO2Cw+Qy6R/2vqaB0MPGhQTTsXKOG9tCBtdueVFVeXTFET0BFmZNbx8KEhTxNRoaqI6lFdQr7THyl6Hp7wRL3Vqn/VRiMGjWsqxRfVes7yDxU6UM24za0rw7+YBS+6j0/JUIQN+x+zO+cbX+Wo2vvrcGkAQni02HoI882eHZSR/Ds7obKlLruXLKIotVGq90S3bcxK0xNb+lTz6qy30U/dzOJ1IG5+MyEPW0VniOEt2ENFCtzetQGeB41cCXBEomirOqAGF5ZETsSMoCd9zy3hBThWaFQzovldbLnhuynefA1faM3wQtv6zK4R3lVpeKFf6wAAfTMlN/wXPVbDqMdwnTnroKoi5cCPmRD7gmyN4u1yKRrX/h1C//19KEmRLAe1SE4tBGt6Z3K55bQzXM5UaiW/7djRFJqkhpzQD+YOa/lDf/Dsuk2AngPXLiRunU/DFDQ+liYEIjIJLh5/X6pvGulRs92rk80FTlJPglrQ5JZ1BZH/kLWpiBluKScFGvqr7JPARCpGgY1g9mzcStOZgHTaJEViWGeVN2WvpSP9c6fH/dvBAdtAtwQCnsSW7xWMPwSigWde5fzjhCdrarfb1h1hgsMDNoCeV0V/j+0/NE+dcst/waxjTa3nBdyQ6SjAVOJmtx6zg8K1ZoZE8Y6BSDmd8JA4qiohIqi4zoH448tFuc6ojEyASfVxrl/K1sjSCmFwnA9PSmIYQWJGQcbZg/BIzDl6QvU9+SZ6ue1dRpqkNGkGJZMYLEf4LfUJjIty1hGXrpLGDcE/E8Avrvk16Rkm0dZNY9+AFOJU6y625gYZf52GqMLCPhXJh8nXsJZrVcmg2PQ5vLCpcnt11FUxj9KdH3EiLubpOPWBY6Dixr5VA5JMwRw0VLnRa5o+Lo2WJQxH09KdvbTmFjdeMEAGyjrZNb7KRvlgKdnvJFnASQzq+I9PlcPxQ2Isnon6qpVjNwwhq6PBGulDagB+WoYKnKsPjhIAICYSHRoKcpMZjyGddCL+1VL7BQuBV2ENKY7bPSgtsS0aET3TEvzuHvcNUsPKFbNSFgIJgFJmkpkIrhHEJhX7xoJpmnQ/akl6AH3WMDePRFwBqOQZhStICfA+1bpmb7PYs2m8A+uXOeuN1fRhEUy6/gkrBuDmLeLpoJBbYGZR2JUjvkHKCHBS2jpks/t1npDZH6l2Ni4XpsuFfcxBLl7wi1+mVZBQ8DsgGMD3c7byJLY135+vg61UTwsx1n1NFgJlz9W8a1a0hwNVber+k0xVNJhhxpjdBS5tvgf1odVfQ8LfSvjZ8or16abboIy02aUORldvkM8gs1K0vVZ/ZBr6fdYSW1L7CS4jtdmjJCiq6APTl6IcHULnY+PJgnZ0sk9uqUbXMqRRXf5I8Y17K4+bD1jX8PIw4+40U9m7jo2sPQJyY7MtHTqFM7MD3d0M6SVLTuuPCH0EQeOPdqx3OQTXBqkbGlEweneR3mgYxuM0hrnfPu/6N4yoSqXfp5ChluC1sHMK1E3Ejhn7mz5Wppwg6a2Be1DC5RN3Bh/3HMf1NDwWXyhPCsl6rb4CJEfNV+aro4IuPzVtuuMhGG3Qenmb/bwaxDNcpUEsBB5MzphPC3jZYr7dLthHXrzFD1CKj5NXB+5bsTafVNFwbBqBa1N5IAq2Fyaje6qKNPIpnuYQ63ZNzqaaI5hOGIzoB+64J5DrVYQb0yoYMdohjf4kIMpm8ozqWndYReJznJfHA5WRoou8XmZAXfRc/p2zmk6CtarIYyZOtezpXqMLWSx64amGrokAd8PY9b4w1MeEaTb0+6yN+DarroCDo+FiTLQ3uJ6I792sdVw9YqARqKJUZ3TDlPpmhM+zJsIwdaCb35arEh9Ol+UQpyCzhYWSNc9KfMD03jhtgiRmuY+s55oyruiVuCz3/Ps3xZF9OSgDDIv0C/OyqifgHzYPxyFBOdnuqwkpW9v4Bh80NfsF+7iVcLl8hc9/6R0pE9K7aGP4rMvIsiFzseAK3QjJiR03rfYKD6kk8GYi55evAkOO+iOXt8IGsy2z3omFKxTQ0q+rxlygSNx+Yd7oTNlyyDi2r8uP3VfDd9IUMoqIm9JN07n03wH0DaP5nl2Sqw0dGLJg+1BZZmlOwQqK7Q1RRj98HM6M1vYI3CQXJf1SLT5KnYcISCXHeI3f9t9j2rpFMerwf7urOVW0o1fRVeiSzCKiTLBtEUCryrDr8DrfCDOnt1C4wtM9NwIkY/O5pHOYBzYaqCWof1IOzS53Gg3yYrOV+uwc7nz2ptU0kI1BCRpTvyYRfMXDt3MKtlcwprZSv8KlSF1MIXKH1VXrykluZp4kPHspgzJ/cSV93Tx9jcbOdYu07IDGaViBRP5qQql1rNUMp1v+TLwu5KylyM6AYAw3hCtY7lIwEyxtpWUk6ffWn9qcRKmLrnU2+ofdBr3Z1o/ngs6ug6Pey3W0QTvOg1IPd0vYx5ys1xtnyEJmYECbvYYPOruN/LPVYJl9tCAi2l/9YRxUDnLAoHQziCk/Xp/tZn1A/gz6o0I/T6u2XzJJffx1wc0dB/M+28k5F+1tjxgx0GlmNR7BiGhaEoGVY4YP9J19WLB+wShyuwLs5IDdpdt1zzJXvKgzjLoAYtohzw8cBFkIQitweKEnq8sB5AmiEwGvmP3cidxaqiD1d+/20D4oIfuAmuEhTMQL5a5xKwqDwgdGf85vDtVn+P6bIl1cG1n3AHIyHZ1nHQgT1oOXoT7UYemJDt4fqwVTjHxHPpgm5tS9SJRrtYb9Fk1hCev0uBCJ+8IB5kOV5GDToKqHJzy3KIYavSJ2rRK2SIl97oDP4hOhrB4QewlZ036qdtc/iQME6MjuhmNnsIihlHUBZznyJR+xNTCKLhsWXkTd9wu1hE0ORKl9ohsLc1vzsOzP9XRhSdJRZsSQTXU//1rgnegRm2y+1bhgaKrM+5Aqn2KTfWp0d2p/oYSYYJAaErGk2UpYTfpyzJSP1r8AcDfv/T3Wqb1ypRmbqwAuGaQpFLO9z2ePdsV2X7oro2u4luHHIet7koiijTih4pAbYm19d2MXmZDm58mkVxqKov5EktBKmSnOZ7yiNhCcwf+0oiEBefrbhFsq3Ntxslx+Gv/HXrqRisIF+uF3MWrymFiqyu/u96aJ9FnN5E9vxw73rsLjeYpEO7dauVcc5kI2M//LOT8/SnnpuiNKBiNMhGBF7GIOCiHRG3c626aEPiUY+0Ih6i3MDqlAvjD0XSQmHG2NtvlJQNgQq9FCrJroAW2BzQXyylOjCGl+hbOSvVg4kKhvB7jgdc20PY1FCXWVW0/sHsRqY7UfY2Q6alsr2Vm5+5rkuOVJCf3sZKiPQHZFT2+aeg98PZVKJ2iO9aLZJAxPMzDO8WFDEKp7qb8IPIEvNG2uwT2Zcrm5zJ/xOtciJTCw0wrsAmKe4k+6Ac2AQmdvxSfGdGYY1CHZrNX+TgyPsYcvP2GOU9QmPuTpyAf8hwOfS0W+kAHtZFlHly7KVywQU5L1GW5uHJm5MP0G1OzQSpOK7hVsU7s7HVeD9kFk3nY/KLNi5l2kLsGWzXh06bQ17lmH35g9R1SKwOcRZA8WcHpkg+0UQR3dMLV0WVlLt4wYYkIymHCrNAHqY+S4CsX1L67zx+UP6peiORncoLviWGqREpmKKlu3+9/vutOM66iMkmsy+RJlgW6DEbCySCasadgwSv22qq5W9WEuXjHpxOWB018I2b3A74usRhbfjAUogk38Kv/i2Q13UmeEi82PBpMlLLvo9pvPlR40FOCrrAI1AkcqGSr8EOJh+V+yFQvVWoQJCxx92KJGLbUByo1HaOVVzGlhdU7N5qpP1pfRBJgq28zhFlxnHuL8k6bkqp5uLZM2LBNwPvq67IImYn/SA4aa4CBVGnwMhsJUsr1HmbY2Q2RN81+2Bj4B7pRYeoUWavruw7VaSytm4skxISo6y2zsqYYowDKMvS7hVzO8PpOAJ5hEI94rO1tHDE8yGVficBteR+pLaqxiHjsRjp8qofzT76OmF5mNSs4B4vnPyg72dlsZH5SZTh4+6UfsfbAbIxFTxXEdRI4IYCvqsSxIFKUn2mMeFvT4vLXo/7VNgLSdcFqfXn0aMsXAdmpnGt2aRpBeuaZPyzv178dMLF09b/fe8cwn0jiy8bqP/Xnr8qzGvSE/5XuoF9c+JI+qGTjV+8Wx1potAxhuC24v59Dta2lquqOdI9QNPoYjWEHg2nqfQF39GOIEZ+DNc3PM9Klr+zjv1MqRO9/0diKbZTANrXyvGCy0Xse+eD/EEqL/QHXPuAgDddEopT0LOTYgvp9yaEmP3eGS3MDd/RQ/z8TqzXNnvCRnpBLe09Y2EclFaB/THA2rmvB+2mtvWTwg8Reh3QGps3PAYr3nM0rfATPFi0YtLUUw8mE6KF67nlCqqABoRhPwE5ET5xuxWm0wOUgFsWx+zDYkgYrSeX0mP+ldaR/P2U8Uuje33fd3z0XRoaW86OIlsbOGNAwXvqBbNRd/XrkmSTs+WWVBuVYrwVPhVss+uTYOyPeaLBP67l/ME2E/hfC8MGP/iubCtcbmTvP0uk7CDDVxp889+FeMeZ6qNM+05CBRzOoUeYUwBKC5Ua9k+6zjn8gkWaEbZe0UrqFiJ0b4YGQO8IbhH0VpRR9sjEUFXM1gfX9w7c4UotMs+q0gDBhiAhF57CkM7TaFfGvVHRZKIrvU5NS3PK/UZT9nvItT2pvSg+711K3gzV4s4kVshQRq2SiLqP4Ina99fZu1faqxzrjwhWd7igPLxEZGB0cPKC6oOASCaf1I8TD4Fw+hHyY5mYzd+sRhBY+KVy0eAy9FWHWCk1LU4BPxKFt2EjjTiU2x+oySQsz96xo01RwdPF+3KD9F9SgmTfglwZMe7OEbvzU0qvpkYIFf4G8T7oUjPYAIHbJX9js5ez1ahjJ06/VMRT5H2T/aFw3bo6UW3aqMNfhVCyeKaYaR2RTOkTFvPwKoAsKzbUtb3FgLGBzJIMnK9zcvbMyiS30gPRME0bDDtAyNcdJli+hHbzbTYSmCCJSL4YUguLFdaSU4Nygh/gTSF0nRo2WPwkgEa0FKS4EBUB813PFUAaGEn/GscgrCVKeW5gnCn1Ob4uOGxO5nXumQdfd1aLjL9vOQiyJZV+UIZptYxpnFqgVmqTAKzsvKf0sP1QTNfCcTtegBDWFonR/NStnSq5CM3AAXx9MrxI67O9d/ULMSXj13HI6WvNAwAOafO/7ChyqK21sovEoe5myKs2JqZcVpMXfrSAWU0G00VZTIns5J+tPTjv99/HISN4DnIlsIrwOOJP8hC6w5DD7JzTcDM3hqXbt0BqgmFIoSCQO6Ra/xrLG1yuUxOjYTDdRDM+v/p1YuduOplIhlAyfKwiimA0p41r3S9uvzLbhhuHyRG/Z9NOzeinqJrzUCtJ2oGQmzSnx+1k/DKiNW06n3Rr2SMuWQEjXi1VCELnJCZZ7hgNSfDOVWqS7i0302Yzr/4vwr0nX3VBoVNeyC2tlvNLVxeDy2kketWgX9Y6GC6gGYFtCF+nIA4NuX98FPtSHZWcgepeR2UKptYB3QPVaJHPoRkc46SEb7TXfJtLbx94ICAclh4tJ5u7NTnDgAVQNtfAZ/IIbCPVm0uiThfi6pdX21jtap/pgwrGKCzqF69aZxlYw1IhtnUNyPYRhESdqH9xYb4QSE7Oa2+XsT5aE0zsTfPQejnyeMK0okRewcQgqp8alZ79bb7BcpMagGNzDiKSRcVuX1qHeV/GSwqvBJztGwJNPilX7z8sbu9NVbuLQdjTG/MEmo1NsNz56eWdEEUhc1gHCPKXEiFw/VC7E3Bxi2G81UFc3yNspHuP6/XjXjIxAlPsBMtQhL5m89yPhE4DF0u9ntWix8zfWMH4CACp6F49eVgXWCTbdX/WLayNxODnlZ2C6uK5pLmIRZX77t8OHXov3MZJGOXqi/Nq6PBOjYVJhTcnjyVjJ8rnSt9o2wxFmLZbM5V8TNYXhMBfkneUlGOZQGl6ShZdVaLkwqFwvr1yKKvnay0ZjkzPqS/qvYG3WOuAV2W1Ad0aTGz5pjoMKqrLEXXqewmS3WR0h3tSVUL8WoXKK2EthJAbuBU6tmo+jVg2coXOsL4zWCJwqTYGvIW7NGyCDyWiWjwwXL1yJpD37K/TcUnTTv3OckV2Ps4Km5S6d0=</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>仗义每多：《无名之辈》影评</title>
-      <link href="/2018/11/18/%E4%BB%97%E4%B9%89%E6%AF%8F%E5%A4%9A/"/>
-      <url>/2018/11/18/%E4%BB%97%E4%B9%89%E6%AF%8F%E5%A4%9A/</url>
-      
-        <content type="html"><![CDATA[<p>周日天雨，朋友圈有人晒上马。</p><p>一年两部电影同时入围史诗级车祸闹剧现场的金马奖的任素汐和章宇，眼见着就上不了今天的头条。尽管于妈掐准点儿定时爆破想博个眼球，结果还是像下雨天放焰火一样哑火了。看来上头条困难户也不只是汪峰的专利，风水轮流转嘛。</p><p>午饭后冒着小雨跑出门，看了新上映的《无名之辈》。值！让人不由得不想起美剧《Shameless》，无论是名字还是剧情。</p><p>我不确定在事前不被告知的情况下，能不能把眼前的眼镜和黄毛联系在一起。很多人生来就是演戏的料；不同的是，有的人演多少人是多少人，有的人演多少人都是一个人。任素汐、章宇像前者，章子怡和周一围比较像后者。玉娇龙自然是无人可以超越的了，只不过看多了老是会恍惚，以为纵身下跳舍身崖的玉娇龙穿越而来。</p><p>电影本身很简单。讲几个事事不如意的底层小人物和着血泪的荒唐挣扎和为了尊严而板命。实际的效果却是这怪诞世道的一块琥珀，将周遭的空气、阳光、水分，统统都保留下来，供亿万年后的孝子贤孙观赏或者研究。有那么一瞬间，有点后悔当初没有去学社会学。当然，也就那么一瞬间罢了，因为搞不好社会学家要饿肚子；搞得好则可能要蹲那啥。打住打住。</p><p>在一个荒诞的国家里，唯一能保持水准的唯有这荒诞剧了。这部戏配得上众生有情，更配得上“仗义每多屠狗辈”的老话；只可惜我一时也没有想起来把那后半句送给谁。就送给昨夜今晨在微博上撒着欢儿发“一点儿都不能少”迅速站队的一众老少们吧。</p><p>当然，也不是说就没有遗憾的。原本以为任只会耿着脖子演戏，这一部明显已经收着了。只是每每看到一个长期高位瘫痪的病人中气十足地讲话，还是有点儿出戏的。要是说话再虚弱一点、怨毒几分，就更传神了。另外一个吐点就是那两个高中生。就说那个宁桓宇的位置吧：你这位置是全剧核心之一啊；你看因为老爹找小三父子反目了；现在要冲破心魔隔阂去给老爹找场子，哪怕明知道是唐吉柯德一样有去无回，还要勇往直前，多好的戏剧冲突啊。可惜没演出来。要是换成昨晚的新科金马影帝的话，估计就不光是唱歌被人diss；估计演戏也要凉凉了。</p><p>要说最大的惊喜，应该是片中插曲尧十三的民谣《瞎子》。歌词没太记住，我是刚才要写这个观后感，才在网上查到是化自柳永那篇《雨霖铃》。但是那个调调我听第一句就眼前一亮。因为我太熟悉了—-这不就是小时候常听到的西南地区的挽歌么？少年时候还常听到，现在是没有的了。现代乡村的挽歌要么是放哀乐、要么就直接放流行歌曲了。不晓得是不是想放放这些稀奇古怪的看看、说不定老辈子的棺材板儿压不住、一口气也就回来了？</p><p>只是酆都城都落到水下去了，看来还要看会不会游泳了。回头要趁早，只要还没有走过那座奈何桥。</p>]]></content>
-      
-      
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F12%2F19%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Incorrect Password! No content to display! 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]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[仗义每多：《无名之辈》影评]]></title>
+    <url>%2F2018%2F11%2F18%2F%E4%BB%97%E4%B9%89%E6%AF%8F%E5%A4%9A%2F</url>
+    <content type="text"><![CDATA[周日天雨，朋友圈有人晒上马。 一年两部电影同时入围史诗级车祸闹剧现场的金马奖的任素汐和章宇，眼见着就上不了今天的头条。尽管于妈掐准点儿定时爆破想博个眼球，结果还是像下雨天放焰火一样哑火了。看来上头条困难户也不只是汪峰的专利，风水轮流转嘛。 午饭后冒着小雨跑出门，看了新上映的《无名之辈》。值！让人不由得不想起美剧《Shameless》，无论是名字还是剧情。 我不确定在事前不被告知的情况下，能不能把眼前的眼镜和黄毛联系在一起。很多人生来就是演戏的料；不同的是，有的人演多少人是多少人，有的人演多少人都是一个人。任素汐、章宇像前者，章子怡和周一围比较像后者。玉娇龙自然是无人可以超越的了，只不过看多了老是会恍惚，以为纵身下跳舍身崖的玉娇龙穿越而来。 电影本身很简单。讲几个事事不如意的底层小人物和着血泪的荒唐挣扎和为了尊严而板命。实际的效果却是这怪诞世道的一块琥珀，将周遭的空气、阳光、水分，统统都保留下来，供亿万年后的孝子贤孙观赏或者研究。有那么一瞬间，有点后悔当初没有去学社会学。当然，也就那么一瞬间罢了，因为搞不好社会学家要饿肚子；搞得好则可能要蹲那啥。打住打住。 在一个荒诞的国家里，唯一能保持水准的唯有这荒诞剧了。这部戏配得上众生有情，更配得上“仗义每多屠狗辈”的老话；只可惜我一时也没有想起来把那后半句送给谁。就送给昨夜今晨在微博上撒着欢儿发“一点儿都不能少”迅速站队的一众老少们吧。 当然，也不是说就没有遗憾的。原本以为任只会耿着脖子演戏，这一部明显已经收着了。只是每每看到一个长期高位瘫痪的病人中气十足地讲话，还是有点儿出戏的。要是说话再虚弱一点、怨毒几分，就更传神了。另外一个吐点就是那两个高中生。就说那个宁桓宇的位置吧：你这位置是全剧核心之一啊；你看因为老爹找小三父子反目了；现在要冲破心魔隔阂去给老爹找场子，哪怕明知道是唐吉柯德一样有去无回，还要勇往直前，多好的戏剧冲突啊。可惜没演出来。要是换成昨晚的新科金马影帝的话，估计就不光是唱歌被人diss；估计演戏也要凉凉了。 要说最大的惊喜，应该是片中插曲尧十三的民谣《瞎子》。歌词没太记住，我是刚才要写这个观后感，才在网上查到是化自柳永那篇《雨霖铃》。但是那个调调我听第一句就眼前一亮。因为我太熟悉了—-这不就是小时候常听到的西南地区的挽歌么？少年时候还常听到，现在是没有的了。现代乡村的挽歌要么是放哀乐、要么就直接放流行歌曲了。不晓得是不是想放放这些稀奇古怪的看看、说不定老辈子的棺材板儿压不住、一口气也就回来了？ 只是酆都城都落到水下去了，看来还要看会不会游泳了。回头要趁早，只要还没有走过那座奈何桥。]]></content>
       <categories>
-          
-          <category> 旧文 </category>
-          
+        <category>旧文</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 影评 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>《江湖儿女》影评</title>
-      <link href="/2018/09/25/jhen/"/>
-      <url>/2018/09/25/jhen/</url>
-      
-        <content type="html"><![CDATA[<p>去万达剪完头发吃饭的时候，发现观影时间绝好，就跑隔壁的影城看了《江湖儿女》。</p><p>昨儿还跟某同学说起，有时候看到某些热映的电影不太敢看。一方面是担心现在无孔不入的营销宣传，五色使人盲；更担心的是如果和自己想象的不一样的话，徒增失望。不如不看。</p><p>好多年前在网上看《站台》。中间一心二用地还在家忙洗衣服还是什么别的家务，看了个囫囵吞枣不明就里。好坏说不上，但总觉得有点儿隔。及至他拍《三峡好人》，我担心他冲了小时候看的《四川好人》，就更不敢看了。所以从来不是贾樟柯的影迷，更不好像朋友圈好些个文青一样管人叫科长。</p><p>其实故事很简单，不过是讲些江湖无情、儿女有义的故事。同样的题材，很多人都拍过。管虎的《老炮儿》前两年不也红过么。只是愣大岁数的老炮儿了，还要靠与女主上床来渲染北京城的有情有义，太寒颤了点；隔的更凶了。</p><p>再往前，王家卫拍过的叫《东邪西毒》；一水儿的港星的表演被揉碎、讲一个红颜不敌流光的伤心故事。形式上的新巧，却也挡不住英文名字自己就出卖了导演，Ashes of Time。也许是凑巧，《江湖儿女》的英文名字是Ash is purest white。俩大导演还跟个ash杠上了。</p><p>万达的楼下有片空地。下楼的时候看到一堆半大小子在场边花台的沿儿上玩极限自行车。旁边一堆观众；独有一个同伴手持DV、半弓着腰绕车而转，做跟拍记录状。远处原本的篮球场，今天没人打篮球，换成是另一堆少年在练滑板。有男有女，大多尚未练成；一个翻腾直接就把滑板踩在了脚下，像极了陈塘关外的小哪吒脚踏恶龙。想起电影里说的话，有人的地方就有江湖，这些孩子中间大抵也是有的吧。不是说连郭小四的残酷青春物语《悲伤逆流成河》都要搬上大荧幕了么。至于说大荧幕的江湖，那就不是我熟悉了，应该少不了故事就是了。</p><p>车恰好停在万达对面的国美旁边。说起国美，才想起来黄光裕应该已经出狱了吧，只是久不见报道。他这一趟出来，那才是真真正正的物是人非吧，比起巧巧的那个五年，不是一个数量级的。</p><p>一团浆糊。</p>]]></content>
-      
-      
+      <tags>
+        <tag>影评</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[《江湖儿女》影评]]></title>
+    <url>%2F2018%2F09%2F25%2Fjhen%2F</url>
+    <content type="text"><![CDATA[去万达剪完头发吃饭的时候，发现观影时间绝好，就跑隔壁的影城看了《江湖儿女》。 昨儿还跟某同学说起，有时候看到某些热映的电影不太敢看。一方面是担心现在无孔不入的营销宣传，五色使人盲；更担心的是如果和自己想象的不一样的话，徒增失望。不如不看。 好多年前在网上看《站台》。中间一心二用地还在家忙洗衣服还是什么别的家务，看了个囫囵吞枣不明就里。好坏说不上，但总觉得有点儿隔。及至他拍《三峡好人》，我担心他冲了小时候看的《四川好人》，就更不敢看了。所以从来不是贾樟柯的影迷，更不好像朋友圈好些个文青一样管人叫科长。 其实故事很简单，不过是讲些江湖无情、儿女有义的故事。同样的题材，很多人都拍过。管虎的《老炮儿》前两年不也红过么。只是愣大岁数的老炮儿了，还要靠与女主上床来渲染北京城的有情有义，太寒颤了点；隔的更凶了。 再往前，王家卫拍过的叫《东邪西毒》；一水儿的港星的表演被揉碎、讲一个红颜不敌流光的伤心故事。形式上的新巧，却也挡不住英文名字自己就出卖了导演，Ashes of Time。也许是凑巧，《江湖儿女》的英文名字是Ash is purest white。俩大导演还跟个ash杠上了。 万达的楼下有片空地。下楼的时候看到一堆半大小子在场边花台的沿儿上玩极限自行车。旁边一堆观众；独有一个同伴手持DV、半弓着腰绕车而转，做跟拍记录状。远处原本的篮球场，今天没人打篮球，换成是另一堆少年在练滑板。有男有女，大多尚未练成；一个翻腾直接就把滑板踩在了脚下，像极了陈塘关外的小哪吒脚踏恶龙。想起电影里说的话，有人的地方就有江湖，这些孩子中间大抵也是有的吧。不是说连郭小四的残酷青春物语《悲伤逆流成河》都要搬上大荧幕了么。至于说大荧幕的江湖，那就不是我熟悉了，应该少不了故事就是了。 车恰好停在万达对面的国美旁边。说起国美，才想起来黄光裕应该已经出狱了吧，只是久不见报道。他这一趟出来，那才是真真正正的物是人非吧，比起巧巧的那个五年，不是一个数量级的。 一团浆糊。]]></content>
       <categories>
-          
-          <category> 旧文 </category>
-          
+        <category>旧文</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 影评 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>冤有头债有主</title>
-      <link href="/2016/05/04/yytzyz/"/>
-      <url>/2016/05/04/yytzyz/</url>
-      
-        <content type="html"><![CDATA[<p>放个假都不清净，躲无可躲第直接被不幸的魏泽西同学与风口浪尖上的百度强制刷屏。</p><p>有点年纪的人对这场景应该都很熟悉—-当年同样不幸的孙志刚同学。中国人讲人命关天，所以你才看见了各方都要急着撇清干系，包括柯莱逊、一向官僚的各路衙门甚至军方，都赶紧连夜发布消息说要查百度如何如何—-无他都还害怕火烧到自己身上而已。</p><p>三天以来，已经被迫欣赏了朋友圈里对百度以及李彦宏的各种花式吊打。</p><p>等等，大家就没有觉得不对劲？一个基本的事实就是：医院医死了人，不管是有意还是无意，甚至不管是病理致死还是医疗事故，当仁不让的主角不应该是武警北京二院么？咋就成了百度呢? 莫非它会自己抢戏？就好比张三、李四打架，警察来了不抓肇事人员，却只抓围观群众说他们没有事先申请、涉嫌非法集会？什么道理？莫非就因为北二院是武警下属的禁脔之地、地方无管辖权，一众官媒与自媒体大V就只好口诛笔伐打广告的百度与其背后的的莆田系？</p><p>作为一个技术人员，我基本不用百度，也尽量劝阻身边的人不要用。因为是个做技术的人都知道，用百度搜索技术问题的结果基本就是一笑话；还不光是结果靠不靠谱的问题，单就它当年为了赶走竞争对手所做的种种勾当也是不值得唾它一脸的。对了，你可能说我造谣或者无中生有，我刚刚还专门百度了一下“赶走 谷歌 经过”，至少可以搜索到150万条记录，保证没看过的看官可以大开眼界就不提了。</p><p>说这么多，我并不是要给百度或者莆田系洗地—-那地也已委实无处可洗；无非就是想说：各位官媒老爷与自媒体大V们，请放过打酱油的百度与莆田系；找找正主儿的茬就不行么？至于某数字公司赶紧一如既往的出来声明自己放弃医疗广告业务什么的，下作至此，小爷就不说也罢。</p><p>网传的百度内网一问有几句其实不错的，虽然我不觉得一家自己称呼自己为“优秀企业”的企业就是优秀企业：“……作为一家优秀的企业，需要去背负国家、行业本该履行的监管责任”。看见没有？其实风暴眼中心的百度还是有明白人的。问题是百度现在是百口莫辩、度秒如年哪。当然，你也可以说这是百度自己的推脱说辞，端看你怎么去想。</p><p>这个国家已经见证了太多的食品之毒、水源之毒、空气之毒，为何就没有人捡到这一切背后的制度之毒与管制失败？国之疮疖你不敢揭也就罢了，你可以选择沉默；但媒体和自媒体却将滚滚口足笔伐的洪流导向一家企业以及其背后的某一个群体，是何居心？</p><p>不反思制度之毒的结果就是终究反噬自身。当年的孙志刚事件名义结束了收容制度，但是不是在很多地方羊头继续变相施行么？况且二十四史上留下来的所谓民意，好些都不过是权谋家运筹帷幄的结果罢了。</p><p>想到了两则掌故。</p><p>其一，都说今上是最喜欢足球的领导人，其实更多人不晓得的是为啥中国的足球转播中间不会出现广告—-这在如今差不多要在广告间隙里看电视的人们来说确实太异数了；而且中国男足差不多是唯一一个可以公开批评的而不犯政治错误的国字号。为啥呢？</p><p>其二就是参见当年退休后的江回中国联合工程公司视察时候，自诉自己的主要政绩时提到的：军队一律不得经商。</p><p>以上二事，欢迎自行谷歌或者百度。</p>]]></content>
-      
-      
+      <tags>
+        <tag>影评</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[沧海一声笑]]></title>
+    <url>%2F2018%2F01%2F20%2F%E6%B2%A7%E6%B5%B7%E4%B8%80%E5%A3%B0%E7%AC%91%2F</url>
+    <content type="text"><![CDATA[姜文用了若干年时间行走江湖，抽冷子尿一泡，站着把钱挣了。不曾想，学不会弯腰的小青年GAI一战而亡，生生把一曲《笑傲江湖》拔高得跟《广陵散》一样，遂成绝响。 芒果台这种不声不响地从台上抹去一个人已经也不是第一次了，莫不是真以为大家的智商不到25或者公众被集体擦除记忆了么？同样都是被权力强暴又不敢反抗的的可怜人，再谈啥敬畏音乐和舞台，何异于章台柳前立牌坊？ 其实之前还在封杀那个PG one的时候，就应该想到会有这么一天—-那不过恰好是一个True Negative而已，没什么可弹冠相庆的。 不要打听丧钟为谁而鸣，它为你敲响。 不用赶尽杀绝，老子自己走！竟然一语成谶了。😓]]></content>
       <categories>
-          
-          <category> 旧文 </category>
-          
+        <category>旧文</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 社会 </tag>
-            
-            <tag> 杂感 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-  
-  
+      <tags>
+        <tag>社会</tag>
+        <tag>杂感</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[冤有头债有主]]></title>
+    <url>%2F2016%2F05%2F04%2Fyytzyz%2F</url>
+    <content type="text"><![CDATA[放个假都不清净，躲无可躲第直接被不幸的魏泽西同学与风口浪尖上的百度强制刷屏。 有点年纪的人对这场景应该都很熟悉—-当年同样不幸的孙志刚同学。中国人讲人命关天，所以你才看见了各方都要急着撇清干系，包括柯莱逊、一向官僚的各路衙门甚至军方，都赶紧连夜发布消息说要查百度如何如何—-无他都还害怕火烧到自己身上而已。 三天以来，已经被迫欣赏了朋友圈里对百度以及李彦宏的各种花式吊打。 等等，大家就没有觉得不对劲？一个基本的事实就是：医院医死了人，不管是有意还是无意，甚至不管是病理致死还是医疗事故，当仁不让的主角不应该是武警北京二院么？咋就成了百度呢? 莫非它会自己抢戏？就好比张三、李四打架，警察来了不抓肇事人员，却只抓围观群众说他们没有事先申请、涉嫌非法集会？什么道理？莫非就因为北二院是武警下属的禁脔之地、地方无管辖权，一众官媒与自媒体大V就只好口诛笔伐打广告的百度与其背后的的莆田系？ 作为一个技术人员，我基本不用百度，也尽量劝阻身边的人不要用。因为是个做技术的人都知道，用百度搜索技术问题的结果基本就是一笑话；还不光是结果靠不靠谱的问题，单就它当年为了赶走竞争对手所做的种种勾当也是不值得唾它一脸的。对了，你可能说我造谣或者无中生有，我刚刚还专门百度了一下“赶走 谷歌 经过”，至少可以搜索到150万条记录，保证没看过的看官可以大开眼界就不提了。 说这么多，我并不是要给百度或者莆田系洗地—-那地也已委实无处可洗；无非就是想说：各位官媒老爷与自媒体大V们，请放过打酱油的百度与莆田系；找找正主儿的茬就不行么？至于某数字公司赶紧一如既往的出来声明自己放弃医疗广告业务什么的，下作至此，小爷就不说也罢。 网传的百度内网一问有几句其实不错的，虽然我不觉得一家自己称呼自己为“优秀企业”的企业就是优秀企业：“……作为一家优秀的企业，需要去背负国家、行业本该履行的监管责任”。看见没有？其实风暴眼中心的百度还是有明白人的。问题是百度现在是百口莫辩、度秒如年哪。当然，你也可以说这是百度自己的推脱说辞，端看你怎么去想。 这个国家已经见证了太多的食品之毒、水源之毒、空气之毒，为何就没有人捡到这一切背后的制度之毒与管制失败？国之疮疖你不敢揭也就罢了，你可以选择沉默；但媒体和自媒体却将滚滚口足笔伐的洪流导向一家企业以及其背后的某一个群体，是何居心？ 不反思制度之毒的结果就是终究反噬自身。当年的孙志刚事件名义结束了收容制度，但是不是在很多地方羊头继续变相施行么？况且二十四史上留下来的所谓民意，好些都不过是权谋家运筹帷幄的结果罢了。 想到了两则掌故。 其一，都说今上是最喜欢足球的领导人，其实更多人不晓得的是为啥中国的足球转播中间不会出现广告—-这在如今差不多要在广告间隙里看电视的人们来说确实太异数了；而且中国男足差不多是唯一一个可以公开批评的而不犯政治错误的国字号。为啥呢？ 其二就是参见当年退休后的江回中国联合工程公司视察时候，自诉自己的主要政绩时提到的：军队一律不得经商。 以上二事，欢迎自行谷歌或者百度。]]></content>
+      <categories>
+        <category>旧文</category>
+      </categories>
+      <tags>
+        <tag>社会</tag>
+        <tag>杂感</tag>
+      </tags>
+  </entry>
 </search>
