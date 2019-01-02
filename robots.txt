@@ -9,3 +9,6 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
+
+Sitemap: http://robinmin.github.io/sitemap.xml
+Sitemap: http://robinmin.github.io/baidusitemap.xml
