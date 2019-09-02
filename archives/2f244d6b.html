@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+    <head><meta name="generator" content="Hexo 3.8.0">
+		
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="一个技术宅的闲言碎语">
+        <link rel="shortcut icon" href="http://robinmin.40fin.com/static/images/robinmin2.jpg">
+        <!--link rel="canonical" href="http://guolinn.com/" -->
+        <link rel="alternate" type="application/rss+xml" title="Robin Min" href="/atom.xml">
+        <title>群删推文数据分析 | 咸话咸说</title>
+        <meta name="description" content="{{meta_description}}">
+
+        <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/styles/crisp.css">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    
+		<body class="post-template">
+	
+
+        <header id="header">
+            <a id="logo" href="/"><img src="http://robinmin.40fin.com/static/images/robinmin2.jpg" alt="咸话咸说"></a>
+            <h1><a href="/">Robin Min</a></h1>
+            <p></p>
+            <div id="follow-icons">
+          <a href="http://github.com/robinmin"><i class="fa fa-github-square fa-2x"></i></a>
+            <a href="http://linkedin.com/in/robin-min-00913520"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        <a href="/atom.xml"><i class="fa fa-rss-square fa-2x"></i></a>
+  </div>
+<h6><a href="/about">About</a></h6>
+        </header>
+
+        <main id="content">
+        
+
+<article class="post">
+  September 2, 2019
+  
+    <span class="taglist">  &middot; 
+    
+    
+      <a href="/tags/数据科学/">数据科学</a> 
+    
+      <a href="/tags/笔记/">笔记</a> 
+    
+    </span>
+  
+
+  <h1 class="post-title">群删推文数据分析</h1>
+  <section class="post-content article-entry">
+    <h2 id="群删推文数据set-1分析"><a href="#群删推文数据set-1分析" class="headerlink" title="群删推文数据set 1分析"></a>群删推文数据<code>set 1</code>分析</h2><p>闲来无事，顺便练练手。日前某不存在的公司因众所周知的原因群删了部分帐号，并公布了相关的资料。资料包含用户信息和推文信息两部分；并分别被切成两部分（即四个文件供下载）。经过下载比较发现，推文信息中包含了所有用户信息的字段，故本次基本只分析<code>set 1</code>的推文信息，即可略窥全貌。</p>
+<p>因为该公司既没有公布群删的标准，我手上也没有现成的其他未被删除的推文做对比（我可不想为这这么点解读，就开始去整个爬虫来拉数据），故只能就这些数据本身做一次解读。那么这些推文究竟是什么样、是些什么人发的呢？以下主要从这几个方面进行解读：</p>
+<ul>
+<li>汇总及用户分层</li>
+<li>按发推时间看</li>
+<li>按发推客户端看</li>
+<li>按推文语言看</li>
+<li>按hashtag看</li>
+</ul>
+<h4 id="汇总及用户分层"><a href="#汇总及用户分层" class="headerlink" title="汇总及用户分层"></a>汇总及用户分层</h4><p>该数据集供包含由<code>699</code>人发布的<code>1,906,831</code>条推文。人均发推<code>2,727</code>条。发推量非常不平均，最少发推<code>1</code>条、最高发推<code>268,284</code>条。如将各用户发推量汇总并按照逆序排列，可得下图。<br><img src="twitter_hk/tweets_by_pctcum01.png" alt="用户发推量占比排名及累计"></p>
+<p>由图可见:</p>
+<ul>
+<li>发推量长尾效应非常明显，大量的发推集中在一小部分人手里。</li>
+<li>若我们按照发帖量占比从高向低排列，然后按照68%、80%、95%、99.7%的覆盖率来看, 则可将用户分作5个Tier。各Tier的发推状况汇总如下：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th style="text-align:right">Coverage</th>
+<th style="text-align:right">#of Users</th>
+<th style="text-align:right">Avg. #of Tweets/User</th>
+<th style="text-align:right">Daily #of Tweets/User</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4</td>
+<td style="text-align:right">68%</td>
+<td style="text-align:right">7</td>
+<td style="text-align:right">184,084.3</td>
+<td style="text-align:right">133.8</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align:right">80%</td>
+<td style="text-align:right">14</td>
+<td style="text-align:right">108,561.7</td>
+<td style="text-align:right">15.9</td>
+<td>重点人群</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align:right">95%</td>
+<td style="text-align:right">91</td>
+<td style="text-align:right">19,897.4</td>
+<td style="text-align:right">3.2</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td style="text-align:right">99.7%</td>
+<td style="text-align:right">373</td>
+<td style="text-align:right">5,096.7</td>
+<td style="text-align:right">0.5</td>
+<td></td>
+</tr>
+<tr>
+<td>0</td>
+<td style="text-align:right">100%</td>
+<td style="text-align:right">699</td>
+<td style="text-align:right">2,727.9</td>
+<td style="text-align:right">0.1</td>
+</tr>
+</tbody>
+</table>
+<p>后面若有时间，我们可着重研究这部份重点人群（Tier 3的<code>14</code>人）的发推情况。</p>
+<h4 id="按发推时间看"><a href="#按发推时间看" class="headerlink" title="按发推时间看"></a>按发推时间看</h4><p>该数据集包含<code>2008-06-16</code>到<code>2019-07-25</code>之间的发帖，这是第一点与我们之前的推测不一致的地方(原本以为这些人是最近密集发帖)。具体发帖量按季度汇总如下：<br><img src="twitter_hk/tweets_by_qtr03.png" alt="用户发推量按季汇总"><br><img src="twitter_hk/tweets_by_lc_qtr06.png" alt="用户发推量按注册季汇总"></p>
+<p>由图可见:</p>
+<ul>
+<li>总体上来说，这部份人的发帖高峰已过，尤其是上述重点人群（Top 80%的<code>14</code>人）已经基本处于蛰伏状态；</li>
+<li>上述重点人群在几次发推高峰中起主要作用；</li>
+<li>发帖呈阶段性趋势，主要集中在2015Q1、2015Q2、2016Q4、2017Q1、2017Q2、2017Q4及2018Q1；</li>
+<li>发帖季节性非常明显。从整体发帖量占比来看，冬(34%) &gt; 春(30%) &gt; 夏(26%) &gt; 秋(10%)。其中以2017年最为明显, 但因其Q3发帖量大量下滑，当年顺序略反常；顺序为：夏(41%) &gt; 春(35%) &gt; 冬(22%) &gt; 秋(2%)。</li>
+<li>发帖量较多的Tier不是短期注册、发帖行为。有明显的持续发推和养帐号的特征。</li>
+</ul>
+<h4 id="按发推客户端看"><a href="#按发推客户端看" class="headerlink" title="按发推客户端看"></a>按发推客户端看</h4><p>从推特客户端来看，客户端呈多样性，数据简单清理归类后，尚有约<code>270</code>种。但如其他统计特征一样，长尾效应明显。按发推量逆序可以发现<code>Top 21</code>种客户端，可涵盖<code>98.8%</code>推文。具体<code>Top 21</code>的分布如下图。<br><img src="twitter_hk/tweets_by_client04.png" alt="用户发推量按客户端汇总"><br><img src="twitter_hk/tweets_by_client_type05.png" alt="用户发推量按客户端汇总2"></p>
+<p>由图可见:</p>
+<ul>
+<li><code>Tier 4</code>的人大量使用IFTTT、zapier.com等自动转发工具。这个比较符合垃圾制造机制;同时也不失为一种间接科学上网的方式，符合国内发推特征；</li>
+<li>传统web（如tweetdeck、web、google）以及<code>twitter for android</code>等相对容易自动化的平台为主。你很难想象一个人每天用手机发推上千条，但有自动化程序，则一切成为可能。</li>
+<li>发推客户端呈多样化趋势。</li>
+</ul>
+<h4 id="按推文语言看"><a href="#按推文语言看" class="headerlink" title="按推文语言看"></a>按推文语言看</h4><p>从现有数据来看，推文语言应该是用户发推以后，引擎根据推文内容进行的自动语言类型检测。长尾效应明显。按发推量逆序可以发现<code>Top 17</code>种客户端，可涵盖<code>98.8%</code>推文。具体<code>Top 17</code>的分布如下图。<br><img src="twitter_hk/tweets_by_lang07.png" alt="用户发推量按推文汇总"></p>
+<p>由图可见:</p>
+<ul>
+<li>在<code>ISO_639-1</code>中并不能找到占比最大的<code>in</code>所对应的语言。通过浏览、对比，发现其中的数据是葡萄牙语、印尼语等语言的混合体。可能这是检测引擎针对垃圾推文的检测方面尚不完善所致；另外语言特点是空白或者<code>und</code>都属于这种情况。</li>
+<li>大量发推的Tier，语言涉及面很广。量主要集中在<code>in</code>、<code>en</code>、<code>pt</code>及位置语言种。反而是<code>zh</code>中比较少。</li>
+</ul>
+<h4 id="按hashtag看"><a href="#按hashtag看" class="headerlink" title="按hashtag看"></a>按hashtag看</h4><p>因前述推文的多语言混合特效及标注语言类别不准确等原因（其实主要是懒），就暂不对推文内容进行NLP分析了。这里仅对推文内容中提及的hashtag进行简单的分析。剔除几个高频但看不出具体含义的hashtag（含<code>rt</code>、 <code>ptl</code>、 <code>pltl</code>、 <code>rtl</code>、 <code>tlrp</code>、 <code>nrp</code>、 <code>rptl</code>、 <code>ic</code>）后，按语言分别的<code>Top 20</code>如下：<br><img src="twitter_hk/tweets_by_hotword_top20.png" alt="用户发推量按推文汇总"></p>
+<h4 id="未答案问题"><a href="#未答案问题" class="headerlink" title="未答案问题"></a>未答案问题</h4><ul>
+<li>推特的删除标准究竟是什么？</li>
+<li>为何每年秋季（7、8、9月）的发推量明显减小？</li>
+</ul>
+
+  </section>
+  <footer class="post-footer">
+    <!--
+    <section class="author">
+      <h4>Robin Min</h4>
+      <p></p>
+    </section>
+    -->
+  </footer>
+</article>
+
+<nav class="pagination" role="pagination">
+    
+    <span class="page-number">•</span>
+    
+    <a class="older-posts" href="/archives/6c578667.html">
+        <!--日志 - 201909--> next →
+    </a>
+    
+</nav>
+<div id="comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = 'robinmin';
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+        </main>
+
+        <footer id="footer">
+            <section id="footer-message">&copy; 2019 Robin Min. All rights reserved. Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. <a href="https://github.com/guolin/crisp-hexo-theme" target="_blank">crisp</a> theme by <a href="guolin.github.io" target="_blank">Guo Lin</a>.</section>
+        </footer>
+        
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','/js/ga.js','ga');
+            ga('create', 'UA-65167886-2', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </body>
+</html>
+
+
