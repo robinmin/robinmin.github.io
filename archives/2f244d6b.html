@@ -126,7 +126,7 @@
 </tbody>
 </table>
 <p>后面若有时间，我们可着重研究这部份重点人群（Tier 3的<code>14</code>人）的发推情况。</p>
-<h4 id="按发推时间看"><a href="#按发推时间看" class="headerlink" title="按发推时间看"></a>按发推时间看</h4><p>该数据集包含<code>2008-06-16</code>到<code>2019-07-25</code>之间的发帖，这是第一点与我们之前的推测不一致的地方(原本以为这些人是最近密集发帖)。具体发帖量按季度汇总如下：<br><img src="twitter_hk/tweets_by_qtr03.png" alt="用户发推量按季汇总"><br><img src="twitter_hk/tweets_by_lc_qtr06.png" alt="用户发推量按注册季汇总"></p>
+<h4 id="按发推时间看"><a href="#按发推时间看" class="headerlink" title="按发推时间看"></a>按发推时间看</h4><p>该数据集包含<code>2008-06-16</code>到<code>2019-07-25</code>之间的发帖，这是第一点与我们之前的推测不一致的地方(原本以为这些人是最近密集发帖)。具体发帖量按季度汇总如下：<br><img src="http://robinmin.40fin.com/static/images/twitter_hk/tweets_by_qtr03.png"><br><img src="http://robinmin.40fin.com/static/images/twitter_hk/tweets_by_lc_qtr06.png"></p>
 <p>由图可见:</p>
 <ul>
 <li>总体上来说，这部份人的发帖高峰已过，尤其是上述重点人群（Top 80%的<code>14</code>人）已经基本处于蛰伏状态；</li>
@@ -135,20 +135,20 @@
 <li>发帖季节性非常明显。从整体发帖量占比来看，冬(34%) &gt; 春(30%) &gt; 夏(26%) &gt; 秋(10%)。其中以2017年最为明显, 但因其Q3发帖量大量下滑，当年顺序略反常；顺序为：夏(41%) &gt; 春(35%) &gt; 冬(22%) &gt; 秋(2%)。</li>
 <li>发帖量较多的Tier不是短期注册、发帖行为。有明显的持续发推和养帐号的特征。</li>
 </ul>
-<h4 id="按发推客户端看"><a href="#按发推客户端看" class="headerlink" title="按发推客户端看"></a>按发推客户端看</h4><p>从推特客户端来看，客户端呈多样性，数据简单清理归类后，尚有约<code>270</code>种。但如其他统计特征一样，长尾效应明显。按发推量逆序可以发现<code>Top 21</code>种客户端，可涵盖<code>98.8%</code>推文。具体<code>Top 21</code>的分布如下图。<br><img src="twitter_hk/tweets_by_client04.png" alt="用户发推量按客户端汇总"><br><img src="twitter_hk/tweets_by_client_type05.png" alt="用户发推量按客户端汇总2"></p>
+<h4 id="按发推客户端看"><a href="#按发推客户端看" class="headerlink" title="按发推客户端看"></a>按发推客户端看</h4><p>从推特客户端来看，客户端呈多样性，数据简单清理归类后，尚有约<code>270</code>种。但如其他统计特征一样，长尾效应明显。按发推量逆序可以发现<code>Top 21</code>种客户端，可涵盖<code>98.8%</code>推文。具体<code>Top 21</code>的分布如下图。<br><img src="http://robinmin.40fin.com/static/images/twitter_hk/tweets_by_client04.png"><br><img src="http://robinmin.40fin.com/static/images/twitter_hk/tweets_by_client_type05.png"></p>
 <p>由图可见:</p>
 <ul>
 <li><code>Tier 4</code>的人大量使用IFTTT、zapier.com等自动转发工具。这个比较符合垃圾制造机制;同时也不失为一种间接科学上网的方式，符合国内发推特征；</li>
 <li>传统web（如tweetdeck、web、google）以及<code>twitter for android</code>等相对容易自动化的平台为主。你很难想象一个人每天用手机发推上千条，但有自动化程序，则一切成为可能。</li>
 <li>发推客户端呈多样化趋势。</li>
 </ul>
-<h4 id="按推文语言看"><a href="#按推文语言看" class="headerlink" title="按推文语言看"></a>按推文语言看</h4><p>从现有数据来看，推文语言应该是用户发推以后，引擎根据推文内容进行的自动语言类型检测。长尾效应明显。按发推量逆序可以发现<code>Top 17</code>种客户端，可涵盖<code>98.8%</code>推文。具体<code>Top 17</code>的分布如下图。<br><img src="twitter_hk/tweets_by_lang07.png" alt="用户发推量按推文汇总"></p>
+<h4 id="按推文语言看"><a href="#按推文语言看" class="headerlink" title="按推文语言看"></a>按推文语言看</h4><p>从现有数据来看，推文语言应该是用户发推以后，引擎根据推文内容进行的自动语言类型检测。长尾效应明显。按发推量逆序可以发现<code>Top 17</code>种客户端，可涵盖<code>98.8%</code>推文。具体<code>Top 17</code>的分布如下图。<br><img src="http://robinmin.40fin.com/static/images/twitter_hk/tweets_by_lang07.png"></p>
 <p>由图可见:</p>
 <ul>
 <li>在<code>ISO_639-1</code>中并不能找到占比最大的<code>in</code>所对应的语言。通过浏览、对比，发现其中的数据是葡萄牙语、印尼语等语言的混合体。可能这是检测引擎针对垃圾推文的检测方面尚不完善所致；另外语言特点是空白或者<code>und</code>都属于这种情况。</li>
 <li>大量发推的Tier，语言涉及面很广。量主要集中在<code>in</code>、<code>en</code>、<code>pt</code>及位置语言种。反而是<code>zh</code>中比较少。</li>
 </ul>
-<h4 id="按hashtag看"><a href="#按hashtag看" class="headerlink" title="按hashtag看"></a>按hashtag看</h4><p>因前述推文的多语言混合特效及标注语言类别不准确等原因（其实主要是懒），就暂不对推文内容进行NLP分析了。这里仅对推文内容中提及的hashtag进行简单的分析。剔除几个高频但看不出具体含义的hashtag（含<code>rt</code>、 <code>ptl</code>、 <code>pltl</code>、 <code>rtl</code>、 <code>tlrp</code>、 <code>nrp</code>、 <code>rptl</code>、 <code>ic</code>）后，按语言分别的<code>Top 20</code>如下：<br><img src="twitter_hk/tweets_by_hotword_top20.png" alt="用户发推量按推文汇总"></p>
+<h4 id="按hashtag看"><a href="#按hashtag看" class="headerlink" title="按hashtag看"></a>按hashtag看</h4><p>因前述推文的多语言混合特效及标注语言类别不准确等原因（其实主要是懒），就暂不对推文内容进行NLP分析了。这里仅对推文内容中提及的hashtag进行简单的分析。剔除几个高频但看不出具体含义的hashtag（含<code>rt</code>、 <code>ptl</code>、 <code>pltl</code>、 <code>rtl</code>、 <code>tlrp</code>、 <code>nrp</code>、 <code>rptl</code>、 <code>ic</code>）后，按语言分别的<code>Top 20</code>如下：<br><img src="http://robinmin.40fin.com/static/images/twitter_hk/tweets_by_hotword_top20.png"></p>
 <h4 id="未答案问题"><a href="#未答案问题" class="headerlink" title="未答案问题"></a>未答案问题</h4><ul>
 <li>推特的删除标准究竟是什么？</li>
 <li>为何每年秋季（7、8、9月）的发推量明显减小？</li>
